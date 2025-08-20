@@ -1,0 +1,83 @@
+// ... (existing stats data)
+export const dashboardData = {
+  recentOrders: [
+    {
+      orderId: "#12345",
+      customer: "Ali Hassan",
+      date: "2025-08-18",
+      total: "$50.00",
+      status: "Completed",
+    },
+    {
+      orderId: "#12344",
+      customer: "Fatima Ahmed",
+      date: "2025-08-18",
+      total: "$25.00",
+      status: "Processing",
+    },
+    {
+      orderId: "#12340",
+      customer: "John Doe",
+      date: "2025-08-15",
+      total: "$120.00",
+      status: "Shipped",
+    },
+    {
+      orderId: "#12339",
+      customer: "Jane Smith",
+      date: "2025-08-14",
+      total: "$45.50",
+      status: "Completed",
+    },
+    {
+      orderId: "#12338",
+      customer: "Mike Johnson",
+      date: "2025-08-14",
+      total: "$99.99",
+      status: "Canceled",
+    },
+    {
+      orderId: "#12337",
+      customer: "Emily Williams",
+      date: "2025-08-13",
+      total: "$12.00",
+      status: "Processing",
+    },
+    {
+      orderId: "#12336",
+      customer: "Chris Brown",
+      date: "2025-08-12",
+      total: "$88.00",
+      status: "Completed",
+    },
+    {
+      orderId: "#12335",
+      customer: "Jessica Davis",
+      date: "2025-08-12",
+      total: "$150.00",
+      status: "Shipped",
+    },
+    {
+      orderId: "#12334",
+      customer: "David Wilson",
+      date: "2025-08-11",
+      total: "$30.00",
+      status: "Completed",
+    },
+    {
+      orderId: "#12333",
+      customer: "Laura Taylor",
+      date: "2025-08-10",
+      total: "$55.00",
+      status: "Canceled",
+    },
+  ],
+  salesOverTime: [
+    { month: "Mar", sales: 2400 },
+    { month: "Apr", sales: 1398 },
+    { month: "May", sales: 9800 },
+    { month: "Jun", sales: 3908 },
+    { month: "Jul", sales: 4800 },
+    { month: "Aug", sales: 3800 },
+  ],
+};
